@@ -15,6 +15,7 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "hubot": "^2.19.0",
     "async": ">=0.1.0 <1.0.0",
     "chalk": "^1.0.0",
     "cline": "^0.8.2",
@@ -23,6 +24,7 @@
     "express": "^3.21.2",
     "log": "1.4.0",
     "optparse": "1.0.4",
+    "hubot-front": "^0.0",
     "scoped-http-client": "0.11.0"
   },
   "devDependencies": {
@@ -44,6 +46,7 @@
     "hubot": "./bin/hubot"
   },
   "scripts": {
+    "start": "./bin/hubot -a front -n webot",
     "test": "./script/test"
   }
 }
