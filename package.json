@@ -22,6 +22,7 @@
     "coffee-script": "1.6.3",
     "connect-multiparty": "^1.2.5",
     "express": "^3.21.2",
+    "hubot-discourse": "github:resin-io-modules/hubot-discourse",
     "log": "1.4.0",
     "optparse": "1.0.4",
     "hubot-front": "^0.0",
