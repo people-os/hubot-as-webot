@@ -15,8 +15,9 @@
   },
   "dependencies": {
     "hubot": "^2.19.0",
+	"hubot-discourse": "github:resin-io-modules/hubot-discourse",
     "hubot-duplicate": "github:resin-io-modules/hubot-duplicate",
-    "hubot-flowdock": "github:resin-io-modules/hubot-flowdock"
+    "hubot-flowdock": "github:resin-io-modules/hubot-flowdock",
     "hubot-front": "github:resin-io-modules/hubot-front"
   },
   "devDependencies": {
