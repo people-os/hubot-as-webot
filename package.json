@@ -1,6 +1,6 @@
 {
-  "name": "hubot",
-  "version": "2.19.0",
+  "name": "hubot-as-webot",
+  "version": "0.0.1",
   "keywords": [
     "github",
     "hubot",
@@ -11,7 +11,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/hubot.git"
+    "url": "https://github.com/resin-io/hubot-as-webot.git"
   },
   "dependencies": {
     "hubot": "^2.19.0",
@@ -25,5 +25,8 @@
   "engines": {
     "node": "^6.9.4",
     "npm": "^4.1.1"
+  },
+  "scripts": {
+    "start": "bin/hubot -n \"$HUBOT_NAME\" -a \"$HUBOT_DUPLICATE_FROM\""
   }
 }
