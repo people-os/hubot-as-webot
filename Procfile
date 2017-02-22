@@ -1,1 +1,1 @@
-worker: bin/hubot -n $HUBOT_NAME -a front
+worker: npm start
